@@ -1,0 +1,151 @@
+/* Estilo general para el cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Estilo para el encabezado */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  width: 100%;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* Estilo para las etiquetas del formulario */
+form label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #34495e;
+}
+
+/* Estilo para los campos de entrada del formulario */
+form input[type="text"],
+form input[type="email"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;^
+}
+
+/* Estilo para el botón */
+form button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+/* Efecto hover en el botón */
+form button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo para la lista de contactos */
+#lista {
+  max-width: 40rem;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para cada elemento de la lista (li) */
+.persona-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  margin-right: 50px;
+}
+
+/* Último elemento sin borde */
+.persona-item:last-child {
+  border-bottom: none;
+}
+
+/* Estilo para el ID de la persona */
+.persona-id {
+  font-weight: bold;
+  color: #333;
+  margin: 5px;
+}
+
+/* Estilo para el nombre de la persona */
+.persona-nombre {
+  font-size: 16px;
+  margin: 5px;
+  color: #2c3e50;
+}
+
+/* Estilo para el email de la persona */
+.persona-email {
+  font-size: 16px;
+  margin: 5px;
+  color: #7f8c8d;
+}
+
+.boton-container {
+  display: flex;
+  margin-left: auto; /* Esto empuja los botones al margen derecho */
+}
+
+/* Estilo general para los botones */
+.boton button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo para el botón de eliminar */
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Estilo para el botón de actualizar */
+.update-btn {
+  background-color: #3498db;
+  color: white;
+}
+
+.update-btn:hover {
+  background-color: #2980b9;
+}
