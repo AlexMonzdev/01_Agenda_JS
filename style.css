@@ -79,6 +79,16 @@ header h1 {
   flex: 1;
 }
 
+.persona-email {
+  font-family: Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+.persona-nombre {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
 .boton {
   margin-left: 10px;
 }
